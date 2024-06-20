@@ -39,7 +39,7 @@ class GraphState(TypedDict):
 class private_docs_agent:
     def __init__(self,llm):
         self.llm = llm
-        self.chroma_client = chromadb.PersistentClient(path="./docs/docsdb2")
+        self.chroma_client = chromadb.PersistentClient(path="./docsdb2")
         collections = self.chroma_client.list_collections()
         for collection in collections:
             print("#1 ", type(collection), collection.name)
@@ -244,7 +244,7 @@ class private_docs_agent:
         #print("#1", query_historic)
         results = self.collection.query(
         query_texts=[query], # Chroma will embed this for you
-        n_results=3 # how many results to return
+        n_results=5 # how many results to return
             )
         print("#6")
 
