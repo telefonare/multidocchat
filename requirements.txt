@@ -21,6 +21,8 @@ blinker==1.8.2
 brotlipy==0.7.0
 cachetools==5.3.3
 cattrs==23.2.3
+chroma-hnswlib==0.7.3
+chromadb==0.5.3
 click==8.1.7
 coloredlogs==15.0.1
 comm==0.1.4
