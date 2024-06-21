@@ -5,7 +5,6 @@ import random
 import sys
 import io
 import pandas as pd
-import sqlite3
 from custom_agents.private_docs_agent import private_docs_agent
 from langchain_groq import ChatGroq
 
