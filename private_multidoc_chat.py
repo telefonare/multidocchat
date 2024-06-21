@@ -78,9 +78,9 @@ def main():
        
         st.session_state.chat_history.append(message_data)
   
-        st.write ("<-- Links to the documents on the sidebar.")
-        st.write ("List of indexed documents:")
-        st.write ("""
+    st.write ("<-- Links to the documents on the sidebar.")
+    st.write ("List of indexed documents:")
+    st.write ("""
 10 Minute Guide To Investing In Stocks.pdf\n
 17 Money Making Candle Formations.pdf\n
 17 Money Making Candlestick Formations.pdf\n
